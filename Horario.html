@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Nacional</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        
+        table thead th {
+            background-color: rgb(44, 118, 118);
+            color: white;
+        }
+        table tfoot td {
+            background-color: rgb(130, 131, 177)
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: rgb(119, 158, 170);
+        }
+        table tbody tr:hover td{
+            background-color: rgb(115, 170, 186);
+        }
+        table {
+            background-color: rgb(98, 134, 134);
+            -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h3>Menu</h3>
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="PaginaPrincipal.html">Página principal</a></li>
+                <li><a href="Saibamais.html">Sobre a clínica</a></li>
+                <li><a href="Contato.html">Nosso Contato</a></li>
+                <li><a href="Horario.html">Horário de Atendimento</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="cli2.png" width="300" align="left"/>
+                <h1>CNAR</h1>
+                <h3><blockquote>trabalhamos para sua saúde...</blockquote></h3>
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h5>Aqui você pode ver os horários<br> para cada dia da semana.</h5>
+                <table width="300" align="center" cellspacing="0">
+                 <caption>Horários de atendimento</caption>
+                  <thead>
+                   <tr>
+                     <th>Dias</th>
+                     <th>Horários</th>
+                   </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                     <td>1ra feira</td>
+                     <td align="center">9:00AM-12:00AM</td>
+                    </tr>
+                    <tr>
+                     <td>2da feira</td>
+                     <td align="center">9:00AM-12:00AM</td>
+                    </tr>
+                    <tr>
+                     <td>3ra feira</td>
+                     <td align="center">9:00AM-12:00AM</td>
+                    </tr>
+                    <tr>
+                     <td>4ta feira</td>
+                     <td align="center">9:00AM-12:00AM</td>
+                    </tr>
+                    <tr>
+                     <td>5ta feira</td>
+                     <td align="center">9:00AM-12:00AM</td>
+                    </tr>
+                    <tr>
+                     <td>6ta feira</td>
+                     <td align="center">9:00AM-10:00AM</td>
+                    </tr>
+                    <tr>
+                     <td>Sábado</td>
+                     <td align="center">10:00AM-12:00AM</td>
+                    </tr>
+                  </tbody>
+                    <tfoot>      
+                    <tr><td colspan="2">Não abrimos nos feriados públicos</td></tr>
+                    </tfoot>              
+                 </table>
+                 
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <h3>Fundada em 1987</h3>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
